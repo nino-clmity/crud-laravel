@@ -38,7 +38,7 @@
 
         <div class="mb-3">
             <label for="nomeInput" class="form-label">Nome:</label>
-            <input type="text" class="form-control" id="nome" name="nome" value="{{ $usuario->nome }}">
+            <input type="text" class="form-control" id="nome" name="nome" value="{{ $usuario->nome }}" disabled>
         </div>
         <div class="mb-3">
             <label for="telInput" class="form-label">Telefone:</label>
